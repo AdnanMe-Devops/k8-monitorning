@@ -42,6 +42,6 @@ Line 10-32 - implements 5 x API endpoints:
 /three
 /four
 /error
-All example endpoints, except for the error endpoint, introduce a small amount of latency which will be measured and observed within both Prometheus and Grafana.
-The error endpoint returns an HTTP 500 server error response code, which again will be measured and observed within both Prometheus and Grafana.
-The Docker container image containing this source code has already been built using the tag cloudacademydevops/api-metrics
+-All example endpoints, except for the error endpoint, introduce a small amount of latency which will be measured and observed within both Prometheus and Grafana.
+-The error endpoint returns an HTTP 500 server error response code, which again will be measured and observed within both Prometheus and Grafana.
+The Docker container image containing this source code has already been built using the tag cloudcademydevops/api-metrics
